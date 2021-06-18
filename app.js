@@ -15,7 +15,6 @@ fetch(url)
       if(this.value==item[0].slice(0,7) ){
         console.log(item[1]);
         result=`The GDP of US during that month was ${item[1]}`;
-        break;
       }else{
         console.log("invalid");
         result=`OHH!! you have entered wrong year or month. Please try again`;
